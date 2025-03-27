@@ -8,7 +8,6 @@ class Question(db.Model):
 
     id: Mapped[int] = mapped_column(
         db.Integer,
-        db.Identity(always=True),
         primary_key=True,
         autoincrement=True
     )
