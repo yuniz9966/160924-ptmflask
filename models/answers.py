@@ -3,6 +3,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 from models import db
 
 
+
 class Answer(db.Model):
     __tablename__ = 'answers'
 
